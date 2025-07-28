@@ -39,7 +39,8 @@ main {
 }
 
 section{
-    width: 36%;
+    /* width: 36%; */
+    flex-basis: 36%;
 /* margin:13px
    display:flex;
     flex-direction: column; 

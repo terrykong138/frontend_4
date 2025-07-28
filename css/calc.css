@@ -1,0 +1,32 @@
+html,body {
+    margin:0;
+    padding:0;
+
+}
+* {
+    box-sizing:border-box;
+
+}
+:root {
+    --container-width:1000px;
+    --item-height:200px;
+
+}
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.container {
+    background:#000;
+    width:var(--containet-width);
+    height:calc(var(--container-width)/2);
+    /* display:flex; */
+}
+.item {
+
+    height:calc(200px - 50px);
+    width:100px;
+    margin:10px;
+    background:green
+
+
+}
