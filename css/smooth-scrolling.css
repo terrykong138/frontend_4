@@ -40,10 +40,9 @@ header {
     margin-bottom:80px;
     position:sticky;
     top:0;
-}
-header.transparent {
-    background-image:linear-gradient(45deg, rgba(255, 0, 0, var(--header-transparency)),
-   rgba(0, 0 , 255, var(--header-transparency)));
+} 
+.transparent {
+    background-image:linear-gradient(45deg, rgba(255, 0, 0, 0.7), rgba(0, 0 , 255, 0.7));
 }
 
 header .menu ul{
@@ -73,6 +72,6 @@ header .menu a:hover{
     font-size:40px;
 
 }
-.section#home{
+.section #home{
     margin-bottom:100px;
 }

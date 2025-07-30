@@ -32,8 +32,8 @@ body {
     /* grid-template: repeat(4, 1fr) / repeat(3, 1fr); */
     /* ================================================== */
     /* name grid line */
-    grid-template-columns: [col-1-start] 1fr [col-1-end col-2-start] 1fr [col-2-end col-3-star] 1fr [col-3-end];
-    grid-template-rows: [row-1-star] 1fr [row-1-end row-2-start] 1fr [row-2-end row-3-start] 1fr [row-3-end row-4-start ] 1fr [row-4-end];
+    grid-template-columns: [col-1-start] 1fr [col-1-end col-2-start] 1fr [col-2-end col-3-start] 1fr [col-3-end];
+    grid-template-rows: [row-1-start] 1fr [row-1-end row-2-start] 1fr [row-2-end row-3-start] 1fr [row-3-end row-4-start ] 1fr [row-4-end];
 }
 .item-1{
     /* grid-column: span 2; */
@@ -46,18 +46,21 @@ body {
     grid-row: row-1-start / row-2-end;
 }
 .item-3 {
-    grid-column: span 2;
-    grid-row: span 2;
-    /* grid-column-start: 1;
+    /* grid-column: span 2;
+    grid-row: span 2; */
+    grid-column-start: 1;
     grid-column-end: 3;
-    grid-row-start: 2;
+   /* grid-row-start: 2;
     grid-row-end: 4; */
 }
 .item-4 {
     /* short hand start/end */
-    grid-row: 3/5;
+     grid-row: 3/5;  
 }
 .item-5 {
+     grid-column: span 2;
+    /* grid-row: span 2;  */
+}
+.item-12 {
     grid-column: span 2;
-    grid-row: span 2;
 }

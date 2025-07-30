@@ -1,11 +1,11 @@
-document.addEventlistener ("DOMContentLoaded", () => { 
+document.addEventListener("DOMContentLoaded", ()=>{ 
     const header=document.querySelector("header");
-    function toggleHeaderTransparency(){
+    function toggleHeaderTransparency() {
         if (window.scrollY > 0) {
             header.classList.add("transparent");
         } else {
             header.classList.remove("transparent");
         }
     }
-     window.addEventListener("scroll",toggleHeaderTransparency);
+     window.addEventListener("scroll", toggleHeaderTransparency);
 });
