@@ -1,0 +1,12 @@
+console.log(window);
+console.dir(window.document);
+console.log(document.body.innerText);
+console.log(document.links);
+// document.body.innerHTML = "<h1>hello frorm body</>";
+console.log(document.links);
+console.log(document.body.innerText);
+document.writeln("hello form js");
+console.log(document.body);
+document.getElementById("h1").innerHTML = "<p>hello from js</p>";
+//document.querySelector("#h1 p").innerHTML = "<p>second p</p>";
+console.log(document.querySelectorAll("p"));
